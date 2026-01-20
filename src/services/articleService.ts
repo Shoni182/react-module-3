@@ -1,15 +1,15 @@
-import axios from "axios";
-import type { Article } from "../types/article";
+// import axios from "axios";
+// import type { Article } from "../types/article";
 
 // Типізація масиву
-interface ArticlesHttpResponse {
-  hits: Article[];
-}
+// interface ArticlesHttpResponse {
+//   hits: Article[];
+// }
 
-//
-export const fetchArticles = async (topic: string): Promise<Article[]> => {
-  const response = await axios.get<ArticlesHttpResponse>(
-    `https://hn.algolia.com/api/v1/search?query=${topic}`,
-  );
-  return response.data.hits;
-};
+// //
+// export const fetchArticles = async (topic: string): Promise<Article[]> => {
+//   const response = await axios.get<ArticlesHttpResponse>(
+//     `https://hn.algolia.com/api/v1/search?query=${topic}`,
+//   );
+//   return response.data.hits;
+// };
