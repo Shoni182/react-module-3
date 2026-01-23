@@ -1,7 +1,7 @@
 // import axios from "axios";
 // import type { Article } from "../types/article";
 
-// Типізація масиву
+// // Типізація масиву
 // interface ArticlesHttpResponse {
 //   hits: Article[];
 // }
